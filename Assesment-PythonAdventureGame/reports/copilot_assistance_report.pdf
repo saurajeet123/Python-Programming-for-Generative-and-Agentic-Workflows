@@ -1,0 +1,118 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 2834 >>
+stream
+BT
+/F1 9 Tf
+50 755 Td
+(PYTHON ADVENTURE GAME) Tj
+0 -13 Td
+(GitHub Copilot Assistance Report) Tj
+0 -13 Td
+0 -13 Td
+(Project: Assesment-PythonAdventureGame) Tj
+0 -13 Td
+0 -13 Td
+(PROJECT SUMMARY) Tj
+0 -13 Td
+(A replayable command-line quest in which the player chooses between a dark) Tj
+0 -13 Td
+(forest and a mysterious cave, makes follow-up decisions, and seeks treasure.) Tj
+0 -13 Td
+0 -13 Td
+(HOW COPILOT ASSISTED) Tj
+0 -13 Td
+(Copilot-assisted development helped shape the branching story, separate) Tj
+0 -13 Td
+(domain rules from CLI interaction, define the application port, and draft) Tj
+0 -13 Td
+(automated tests. Suggestions were reviewed against the requirements and) Tj
+0 -13 Td
+(verified by running the test suite; the implementation remains dependency-) Tj
+0 -13 Td
+(free and uses a lightweight Clean Architecture structure.) Tj
+0 -13 Td
+0 -13 Td
+(IMPLEMENTATION PLAN) Tj
+0 -13 Td
+(1. Put outcomes, choice models, and pure path rules in the domain layer.) Tj
+0 -13 Td
+(2. Define a GameIO protocol in the application layer.) Tj
+0 -13 Td
+(3. Coordinate rounds, paths, and replay in a game application use case.) Tj
+0 -13 Td
+(4. Implement terminal prompts and validation in a console adapter.) Tj
+0 -13 Td
+(5. Wire the adapter and application in the root entry-point module.) Tj
+0 -13 Td
+0 -13 Td
+(CHALLENGES AND RESOLUTIONS) Tj
+0 -13 Td
+(Branching scenarios can be difficult to test when story rules and terminal) Tj
+0 -13 Td
+(input/output are mixed together. The domain now decides outcomes without) Tj
+0 -13 Td
+(calling the CLI, while the application depends on a GameIO protocol and) Tj
+0 -13 Td
+(the console adapter owns input validation. A fake adapter exercises the) Tj
+0 -13 Td
+(use case without manual keyboard input.) Tj
+0 -13 Td
+0 -13 Td
+(ENHANCEMENTS TO THE BASIC OUTLINE) Tj
+0 -13 Td
+(- Added a second decision in each route so choices have meaningful outcomes.) Tj
+0 -13 Td
+(- Added numbered and text-based selections, plus invalid-choice recovery.) Tj
+0 -13 Td
+(- Added a default name for blank input and replay after wins or losses.) Tj
+0 -13 Td
+(- Introduced domain, application, and adapter boundaries with dependency) Tj
+0 -13 Td
+(  direction pointing inward to the application/domain.) Tj
+0 -13 Td
+(- Added automated tests for pure rules, both winning paths, and replay.) Tj
+0 -13 Td
+(- Kept the project standard-library-only for simple setup and submission.) Tj
+0 -13 Td
+0 -13 Td
+(VALIDATION AND RUNNING) Tj
+0 -13 Td
+(The project is tested with: python -m unittest -v) Tj
+0 -13 Td
+(Start the game with: python adventure_game.py) Tj
+0 -13 Td
+(The automated suite covers domain rules, application flows, and CLI input.) Tj
+0 -13 Td
+0 -13 Td
+(Copilot was used as a development assistant; the player-facing story and) Tj
+0 -13 Td
+(final code were reviewed and verified by running the project's tests.) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+3197
+%%EOF
